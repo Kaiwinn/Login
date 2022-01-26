@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:background="@drawable/bg_app"
+        android:layout_width="match_parent"
+        android:layout_height="419dp"
+        tools:ignore="ContentDescription" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="@string/txt_signin"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textColor="@color/white"
+            android:inputType="text"
+            android:hint="@string/hint_username"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-light"
+            android:background="@color/violetalpha"
+            android:layout_marginHorizontal="23dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=" User Name" />
+        <EditText
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:hint="@string/hint_password"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:padding="9dp"
+            android:fontFamily="sans-serif-light"
+            android:background="@color/violetalpha"
+            android:layout_marginHorizontal="23dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=" Password" />
+
+        <Button
+            android:layout_marginTop="13dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#5B026A"
+            android:backgroundTint="#EAE2F8"
+            android:layout_gravity="center"
+            android:text="Sign In"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="6dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/txt_fg_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></View>
+        <TextView
+            android:layout_marginTop="6dp"
+
+            android:textColor="#2B2A2A"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="@string/txt_or_signup_with"
+            android:layout_marginBottom="38dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:layout_marginBottom="65dp">
+            <ImageView
+                android:padding="3dp"
+                android:src="@drawable/ic_gg"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"></ImageView>
+            <ImageView
+                android:padding="3dp"
+                android:layout_marginStart="13dp"
+                android:src="@drawable/ic_fb"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"></ImageView>
+            <ImageView
+                android:padding="3dp"
+                android:layout_marginStart="13dp"
+                android:src="@drawable/ic_meoden"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"></ImageView>
+        </TableRow>
+    </LinearLayout>
+
+</FrameLayout>
