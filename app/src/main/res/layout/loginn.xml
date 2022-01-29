@@ -112,5 +112,6 @@
                 android:layout_height="match_parent"></ImageView>
         </TableRow>
     </LinearLayout>
+    <include layout="@layout/view_loading"></include>
 
 </FrameLayout>
