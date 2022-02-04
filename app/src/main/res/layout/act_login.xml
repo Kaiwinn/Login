@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:paddingTop="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_bg_kaiiwin"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        tools:ignore="ContentDescription" />
+    <LinearLayout
+        android:paddingHorizontal="30dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/bg_rdsssssssssss"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textAllCaps="true"
+            android:textColor="@color/darkblue"
+            android:textSize="25sp"
+            android:text="@string/txt_login"
+            android:textStyle="bold"
+            android:layout_marginTop="33dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <FrameLayout
+            android:layout_marginTop="23dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autofillHints="Email"
+                android:background="@drawable/bg_rdus_border"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/graylight"
+                android:inputType="textEmailAddress"
+                android:paddingVertical="9dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/txt_email_examble"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginStart="20dp"
+                android:background="@color/white"
+                android:textColor="@color/graylight"
+                android:textSize="15sp"
+                android:text="@string/txt_emailid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autofillHints="Password"
+                android:background="@drawable/bg_rdus_border"
+                android:drawableStart="@drawable/ic_passss"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/graylight"
+                android:inputType="textPassword"
+                android:paddingVertical="9dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/txt_abcxyz"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginStart="20dp"
+                android:background="@color/white"
+                android:textColor="@color/graylight"
+                android:textSize="15sp"
+                android:text="@string/txt_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:background="@color/white"
+            android:textColor="@color/graylight"
+            android:textSize="15sp"
+            android:layout_gravity="end"
+            android:text="@string/txt_forgott"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:paddingVertical="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_login"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="@string/txt_looginn"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:padding="3dp"
+            android:background="@color/white"
+            android:textColor="@color/graylight"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:text="@string/txt_loginwith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginBottom="65dp">
+
+            <ImageView
+                android:padding="5dp"
+                android:src="@drawable/gugo"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:padding="5dp"
+                android:layout_marginStart="13dp"
+                android:src="@drawable/faceboo"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:padding="5dp"
+                android:layout_marginStart="13dp"
+                android:src="@drawable/meohong"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                tools:ignore="ContentDescription" />
+        </TableRow>
+    </LinearLayout>
+
+</FrameLayout>
