@@ -1,8 +1,16 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Login KW</string>
     <string name="txt_signin">Sign In</string>
     <string name="hint_username">User Name</string>
     <string name="hint_password">Password</string>
     <string name="txt_fg_password">Forgot password?</string>
     <string name="txt_or_signup_with">Or signup with</string>
+    <string name="txt_email_examble">nguyenducchien@iloveyou.com</string>
+    <string name="txt_emailid">Email ID</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_abcxyz">abc123456789</string>
+    <string name="txt_forgott">Forgot password?</string>
+    <string name="txt_looginn">Login</string>
+    <string name="txt_loginwith">Login with social media</string>
 </resources>

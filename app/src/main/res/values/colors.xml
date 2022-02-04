@@ -9,4 +9,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="violetalpha">#80AD7FFF</color>
     <color name="colorBlackAlpha">#CC272727</color>
+    <color name="whitetalpha">#FBF9F9</color>
+    <color name="darkblue">#010415</color>
+    <color name="gray">#7A7979</color>
+    <color name="graylight">#8D8C8C</color>
+    <color name="color_bluedark">#4FA0E1</color>
+    <color name="color_bluewhite">#B9DDFA</color>
 </resources>
